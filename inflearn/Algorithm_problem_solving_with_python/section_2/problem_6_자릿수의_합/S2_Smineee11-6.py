@@ -1,0 +1,23 @@
+import sys
+#sys.stdin = open("input.txt", "rt")
+
+n = int(input())
+a = list(map(int, input().split()))
+
+def digit_sum(x):
+        sum=0
+        for i in str(x):
+                sum += int(i)
+        return sum
+
+
+        
+max = -10000
+
+for x in a:
+        digitsum = digit_sum(x)
+        if digitsum>max:
+                max = digitsum
+                maxres = x
+
+print(maxres)

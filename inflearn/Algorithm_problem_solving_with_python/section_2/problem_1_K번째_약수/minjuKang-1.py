@@ -1,3 +1,6 @@
+#import sys
+#sys.stdin = open("in1.txt", "rt")
+
 N, K = map(int, input().split())
 
 cnt = 0

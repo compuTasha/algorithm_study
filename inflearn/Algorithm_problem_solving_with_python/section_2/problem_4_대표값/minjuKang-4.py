@@ -1,5 +1,5 @@
 #import sys
-#sys.stdin = open("in2.txt", "rt")
+#sys.stdin = open("in1.txt", "rt")
 
 N = int(input())
 score = list(map(int, input().split()))

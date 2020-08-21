@@ -1,5 +1,5 @@
 #import sys
-#sys.stdin = open("in1.txt", "rt")
+#sys.stdin = open("in2.txt", "rt")
 
 N, M = map(int, input().split())
 min = min(N,M)+1

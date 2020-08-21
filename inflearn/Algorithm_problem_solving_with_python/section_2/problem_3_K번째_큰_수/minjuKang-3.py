@@ -1,5 +1,5 @@
 #import sys
-#sys.stdin = open("in1.txt", "rt")
+#sys.stdin = open("in2.txt", "rt")
 
 N, K = map(int, input().split())
 array = list(map(int, input().split()))

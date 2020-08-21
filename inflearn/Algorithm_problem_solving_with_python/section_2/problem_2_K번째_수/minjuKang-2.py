@@ -1,3 +1,6 @@
+#import sys
+#sys.stdin = open("in1.txt", "rt")
+
 T = int(input())
 
 for t in range(T):
